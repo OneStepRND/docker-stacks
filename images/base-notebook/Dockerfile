@@ -3,7 +3,7 @@
 ARG REGISTRY=quay.io
 ARG OWNER=jupyter
 ARG BASE_IMAGE=$REGISTRY/$OWNER/docker-stacks-foundation
-FROM $BASE_IMAGE
+FROM public.ecr.aws/x5k0t1o2/jupyter-hub-noteook-base@sha256:9689b12b69a2f6daed00b1ef8c73efd56e1730797b5ad756bfe1082173943f81
 
 LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 
